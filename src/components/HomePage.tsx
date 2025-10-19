@@ -1,8 +1,11 @@
 "use client";
 import React, { useState } from 'react';
-import styles from "./page.module.css";
+import styles from "./HomePage.module.css";
+import SignUp from './SignUpPage';
+import { useRouter } from 'next/navigation';
 
 export default function DevShareMockups() {
+  const router = useRouter();
   const [activeTab, setActiveTab] = useState('landing');
 
   return (
@@ -38,7 +41,12 @@ export default function DevShareMockups() {
                 <div className={styles.landingLogo}>DevShare</div>
                 <div className={styles.landingTagline}>Where Code Meets Creativity</div>
                 <div className={styles.landingButtons}>
-                  <button className={styles.btnPrimary}>Sign Up Free</button>
+                 <button
+                    className={styles.btnPrimary}
+                    onClick={() => router.push('/signup')}
+                  >
+                    Sign Up Free
+                  </button>
                   <button className={styles.btnSecondary}>Log In</button>
                 </div>
               </div>

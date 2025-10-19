@@ -1,7 +1,7 @@
 // app/page.jsx
 "use client"; // REQUIRED if using hooks
-import DevShareMockups from "./components/DevShareMockups"; // adjust path if needed
+import HomePage from '@/components/HomePage';
 
-export default function Page() {
-  return <DevShareMockups />;
+export default function Home() {
+  return <HomePage />;
 }
