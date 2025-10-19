@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from 'react';
 import styles from "./HomePage.module.css";
-import SignUp from './SignUpPage';
 import { useRouter } from 'next/navigation';
+import SignUp from './SignUpPage';
+import Login from './LoginPage'; 
 
 export default function DevShareMockups() {
   const router = useRouter();
@@ -47,7 +48,12 @@ export default function DevShareMockups() {
                   >
                     Sign Up Free
                   </button>
-                  <button className={styles.btnSecondary}>Log In</button>
+                  <button 
+                    className={styles.btnSecondary}
+                    onClick={() => router.push('/login')}
+                  >
+                    Log In
+                  </button>
                 </div>
               </div>
 
