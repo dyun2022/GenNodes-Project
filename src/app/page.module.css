@@ -11,23 +11,13 @@
 
 .mainTitle {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   font-weight: bold;
   margin-bottom: 1.25rem;
   background: linear-gradient(135deg, #f472b6 0%, #22d3ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-/* Color Palette */
-.colorPalette {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border-radius: 1.25rem;
-  padding: 2rem;
-  margin-bottom: 2.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .paletteTitle {

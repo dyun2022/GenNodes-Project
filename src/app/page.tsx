@@ -11,33 +11,6 @@ export default function DevShareMockups() {
         <h1 className={styles.mainTitle}>
           GenNodes
         </h1>
-        
-        {/* Color Palette */}
-        <div className={styles.colorPalette}>
-          <h2 className={styles.paletteTitle}>Color Palette</h2>
-          <div className={styles.colorsGrid}>
-            <div className={styles.colorItem}>
-              <div className={`${styles.colorBox} ${styles.colorPrimary}`}></div>
-              <div className={styles.colorLabel}>Primary - Indigo</div>
-              <div className={styles.colorCode}>#6366f1</div>
-            </div>
-            <div className={styles.colorItem}>
-              <div className={`${styles.colorBox} ${styles.colorSecondary}`}></div>
-              <div className={styles.colorLabel}>Secondary - Coral Pink</div>
-              <div className={styles.colorCode}>#f472b6</div>
-            </div>
-            <div className={styles.colorItem}>
-              <div className={`${styles.colorBox} ${styles.colorAccent}`}></div>
-              <div className={styles.colorLabel}>Accent - Cyan</div>
-              <div className={styles.colorCode}>#22d3ee</div>
-            </div>
-            <div className={styles.colorItem}>
-              <div className={`${styles.colorBox} ${styles.colorBackground}`}></div>
-              <div className={styles.colorLabel}>Background - Dark Slate</div>
-              <div className={styles.colorCode}>#1e293b</div>
-            </div>
-          </div>
-        </div>
 
         {/* Tabs */}
         <div className={styles.tabs}>
